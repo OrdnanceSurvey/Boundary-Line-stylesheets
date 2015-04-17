@@ -22,7 +22,7 @@ These are QML files for Boundary-Line in ESRI Shapefile format for use in QGIS
 
 Your data should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Boundary_Line_Screenshot.PNG "Screenshot of Boundary-Line")
+  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Boundary_Line_Screenshot.png "Screenshot of Boundary-Line")
 
 ## Additional information
 
