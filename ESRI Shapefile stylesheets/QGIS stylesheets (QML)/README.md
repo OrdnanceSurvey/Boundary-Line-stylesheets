@@ -14,35 +14,15 @@ These are QML files for Boundary-Line in ESRI Shapefile format for use in QGIS
 
 *Aternatively you can load each style individually through the 'Layer Properties' window within QGIS*
 
-**NOTE:** We have set scale ranges to each layer so you may need to zoom in before the boundaries appear
+**4.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together but we recommend the following layer order, please turn layers on and/or off depending on your use of the data:
 
-**4.**  Boundary-Line contains different categories of boundary. They can all be viewed together but we recommend the following layer orders depending on your use of the data:
+  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Boundary_Line_layer_order.png "Recommended layer order for Local Voting Areas")
 
-**Administrative Areas**
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/BL_AdministrativeAreas.png "Recommended layer order for Administrative Areas")
-
-**Local Voting Areas**
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/BL_LocalVotingAreas.png "Recommended layer order for Local Voting Areas")
-
-**Greater London Constituencies**
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/BL_GreaterLondonConstituencies.png "Recommended layer order for Greater London Constituencies")
-
-**Scotland and Wales Constituencies**
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/BL_ScotlandAndWalesConstituencies.png "Recommended layer order for Scotland and Wales Constituencies")
-
-**Westminster Constituencies**
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/BL_WestminsterConstituencies.png "Recommended layer order for Westminster Constituencies")
-
-**NOTE:** We have set different scale ranges for each layer which are appropriate to the level of boundary and its place in the hierarchy. This means that as you zoom in and out, different boundaries will appear. You can change or remove the scale ranges within the 'Layer Properties' window
+**NOTE:** We have set scale ranges to each layer so you may need to zoom in or out before the boundaries appear. You can change or remove the scale ranges within the 'Layer Properties' window
 
 Your data should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/BL_screenshot.PNG "Screenshot of Boundary-Line")
+  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Boundary_Line_Screenshot.PNG "Screenshot of Boundary-Line")
 
 ## Additional information
 
