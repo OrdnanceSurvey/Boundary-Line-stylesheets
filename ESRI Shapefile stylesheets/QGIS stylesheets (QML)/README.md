@@ -2,7 +2,7 @@
 
 These are QML files for Boundary-Line in ESRI Shapefile format for use in QGIS
 
-*They have been designed to work with the data as it is supplied*
+*They have been designed to work with the data in its Layered supply*
 
 ## Quick start guide
 
@@ -16,13 +16,13 @@ These are QML files for Boundary-Line in ESRI Shapefile format for use in QGIS
 
 **4.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together but we recommend the following layer order, please turn layers on and/or off depending on your use of the data:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Boundary_Line_layer_order.png "Recommended layer order for Local Voting Areas")
+  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Boundary_Line_layer_order.png "Recommended layer order for Boundary-Line")
 
 **NOTE:** We have set scale ranges to each layer so you may need to zoom in or out before the boundaries appear. You can change or remove the scale ranges within the 'Layer Properties' window
 
 Your data should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Boundary_Line_Screenshot.png "Screenshot of Boundary-Line")
+  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Boundary_Line_Screenshot.png "Screenshot of Boundary-Line at 1:600,000 scale")
 
 ## Additional information
 
