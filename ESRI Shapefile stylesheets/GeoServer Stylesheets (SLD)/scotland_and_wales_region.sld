@@ -3,12 +3,12 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Boundary-Line&#8482; - scotland_and_wales_region_region</Name>
+    <Name>Boundary-Line&#8482; - scotland_and_wales_region</Name>
     <UserStyle>
       <Title>Product SLD - February 2016</Title>
       <Abstract>Boundary-Line&#8482;. Ordnance Survey. &#169; Crown copyright 2016.</Abstract>
       
-      <!--  Scotland and Wales Region Region  -->
+      <!--  Scotland and Wales Region -->
       
       <FeatureTypeStyle>   
         <Rule>
