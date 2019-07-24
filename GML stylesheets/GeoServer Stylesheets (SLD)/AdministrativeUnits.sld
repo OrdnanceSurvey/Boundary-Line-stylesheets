@@ -20,7 +20,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
              </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>65000</MaxScaleDenominator>
+          <MaxScaleDenominator>150000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#f28522</CssParameter>
@@ -94,7 +94,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
              </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>65000</MaxScaleDenominator>
+          <MaxScaleDenominator>150000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#ff1f5b</CssParameter>
@@ -168,7 +168,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
              </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>65000</MaxScaleDenominator>
+          <MaxScaleDenominator>150000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#00cd6c</CssParameter>
@@ -242,7 +242,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
              </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>65000</MaxScaleDenominator>
+          <MaxScaleDenominator>150000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -316,7 +316,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
              </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>65000</MaxScaleDenominator>
+          <MaxScaleDenominator>150000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#000000</CssParameter>
@@ -390,7 +390,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
              </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>65000</MaxScaleDenominator>
+          <MaxScaleDenominator>150000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#af58ba</CssParameter>
@@ -464,7 +464,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
              </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>65000</MaxScaleDenominator>
+          <MaxScaleDenominator>150000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#009ade</CssParameter>
@@ -538,7 +538,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
              </ogc:Filter>
           <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>65000</MaxScaleDenominator>
+          <MaxScaleDenominator>150000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#ffc61e</CssParameter>
