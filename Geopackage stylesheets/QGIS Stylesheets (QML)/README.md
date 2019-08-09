@@ -14,9 +14,7 @@ These are QML files for Boundary-Line in ESRI Shapefile format for use in QGIS
 
 *Aternatively you can load each style individually through the 'Layer Properties' window within QGIS*
 
-**4.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together but we recommend the following layer order, please turn layers on and/or off depending on your use of the data:
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Boundary_Line_layer_order.png "Recommended layer order for Boundary-Line")
+**4.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together so please turn layers on and/or off depending on your use of the data.
 
 **NOTE:** We have set scale ranges to each layer so you may need to zoom in or out before the boundaries appear. You can change or remove the scale ranges within the 'Layer Properties' window
 
