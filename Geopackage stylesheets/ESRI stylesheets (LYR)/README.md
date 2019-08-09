@@ -42,9 +42,7 @@ Your map should now look similar to this:
 
 **5.**  Select the desired layer files and click ‘Add’
 
-**6.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together but we recommend the following layer order, please turn layers on and/or off depending on your use of the data.
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Boundary_Line_layer_order.png "Recommended layer order for Boundary-Line")
+**6.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together so please turn layers on and/or off depending on your use of the data.
 
 **7.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your Boundary-Line data > select the data that matches the layer, for example 'european_region_region.shp' > select ‘Add’
 
