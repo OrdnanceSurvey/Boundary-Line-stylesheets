@@ -22,9 +22,7 @@ These are LYR files for Boundary-Line in ESRI Shapefile format for use in ESRI A
 
 *Alternatively see Method 2*
 
-**6.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together but we recommend the following layer order, please turn layers on and/or off depending on your use of the data.
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Boundary_Line_layer_order.png "Recommended layer order for Boundary-Line")
+**6.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together so please turn layers on and/or off depending on your use of the data.
 
 We recommend viewing the map with the preset scale ranges for maximum legibility. You may need to zoom in or out before the boundaries appear. You can change or remove the scale ranges within the 'Layer Properties' window
 
