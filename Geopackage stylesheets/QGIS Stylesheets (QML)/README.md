@@ -1,6 +1,6 @@
 # Boundary-Line
 
-These are QML files for Boundary-Line in ESRI Shapefile format for use in QGIS
+These are QML files for Boundary-Line in Geopackage format for use in QGIS
 
 *They have been designed to work with the data in its Layered supply*
 
@@ -8,7 +8,7 @@ These are QML files for Boundary-Line in ESRI Shapefile format for use in QGIS
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/archive/master.zip) the contents of this repository
 
-**2.**  Copy all the QML stylesheets (those files ending .qml) into the same directory as your Boundary-Line ESRI Shapefile data
+**2.**  Copy all the QML stylesheets (those files ending .qml) into the same directory as your Boundary-Line Geopackage data
 
 **3.**  Load your Boundary-Line data into QGIS and it should appear pre-styled
 
