@@ -1,6 +1,6 @@
 # Boundary-Line
 
-These are LYR files for Boundary-Line in ESRI Shapefile format for use in ESRI ArcGIS.
+These are LYR files for Boundary-Line in Geopackage format for use in ESRI ArcGIS.
 
 *They have been designed to work with the data in its Layered supply*
 
@@ -10,7 +10,7 @@ These are LYR files for Boundary-Line in ESRI Shapefile format for use in ESRI A
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/archive/master.zip) the contents of this repository
 
-**2.**  Navigate to the stylesheets folder and the directory that matches your data format, stylesheet format and style preference and copy all the ESRI Layer files into the same directory as your Boundary-Line ESRI Shapefile data
+**2.**  Navigate to the stylesheets folder and the directory that matches your data format, stylesheet format and style preference and copy all the ESRI Layer files into the same directory as your Boundary-Line Geopackage data
 
 **2.**  Open a new blank map in ArcMap
 
