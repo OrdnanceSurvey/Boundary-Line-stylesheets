@@ -1,6 +1,6 @@
 # Boundary-Line
 
-These are SLD files for Boundary-Line in SHP format for use in GeoServer.
+These are SLD files for Boundary-Line in Geopackage format for use in GeoServer.
 
 ## Quick start guide
 
