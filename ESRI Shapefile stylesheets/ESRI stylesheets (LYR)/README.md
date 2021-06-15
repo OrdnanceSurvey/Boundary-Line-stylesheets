@@ -20,17 +20,7 @@ These are LYR files for Boundary-Line in ESRI Shapefile format for use in ESRI A
 
 **5.**  Select the desired layer files and click ‘Add’. The data should appear pre-styled
 
-*Alternatively see Method 2*
-
-**6.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together but we recommend the following layer order, please turn layers on and/or off depending on your use of the data.
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Boundary_Line_layer_order.png "Recommended layer order for Boundary-Line")
-
 We recommend viewing the map with the preset scale ranges for maximum legibility. You may need to zoom in or out before the boundaries appear. You can change or remove the scale ranges within the 'Layer Properties' window
-
-Your map should now look similar to this: 
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Boundary_Line_Screenshot.png "Screenshot of Boundary-Line at 1:600,000 scale")
 
 **Method 2**
 
@@ -44,19 +34,13 @@ Your map should now look similar to this:
 
 **5.**  Select the desired layer files and click ‘Add’
 
-**6.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together but we recommend the following layer order, please turn layers on and/or off depending on your use of the data.
+**6.**  Boundary-Line contains different categories of boundary. It is unlikely that they will need to be viewed all together, please turn layers on and/or off depending on your use of the data.
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Boundary_Line_layer_order.png "Recommended layer order for Boundary-Line")
-
-**7.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your Boundary-Line data > select the data that matches the layer, for example 'european_region_region.shp' > select ‘Add’
+**7.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your Boundary-Line data > select the data that matches the layer, for example 'county_region.shp' > select ‘Add’
 
 Repeat step 7 for all required layers.
 
 We recommend viewing the map with the preset scale ranges for maximum legibility. You may need to zoom in or out before the boundaries appear. You can change or remove the scale ranges within the 'Layer Properties' window
-
-Your map should now look similar to this: 
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Boundary_Line_Screenshot.png "Screenshot of Boundary-Line at 1:600,000 scale")
 
 ## Additional information
 
