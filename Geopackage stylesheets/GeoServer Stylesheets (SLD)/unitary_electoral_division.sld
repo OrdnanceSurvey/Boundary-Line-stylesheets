@@ -7,36 +7,29 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <UserStyle>
       <Title>Product SLD - August 2019</Title>
       <Abstract>Boundary-Line&#8482;. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
-      
+
       <!--  Unitary Electoral Division  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
-          <Name>Unitary Electoral Division - 1:65,000 to 1:150,000</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Area_Code</ogc:PropertyName>
-              <ogc:Literal>CED</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>65000</MinScaleDenominator>
+          <Name>Unitary Electoral Division - 1:1 to 1:150,000</Name>
+          <MinScaleDenominator>1</MinScaleDenominator>
           <MaxScaleDenominator>150000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#00943E</CssParameter>
-              <CssParameter name="stroke-width">1.4</CssParameter>
-              <CssParameter name="stroke-linecap">round</CssParameter>
-              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke">#3c3c3c</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-linecap">square</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>Name</ogc:PropertyName>
+              <ogc:PropertyName>name</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">10</CssParameter>
-              <CssParameter name="font-weight">bold</CssParameter>
+              <CssParameter name="font-size">8</CssParameter>
             </Font>
             <LabelPlacement>
               <PointPlacement>
@@ -53,30 +46,25 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </Fill>
             </Halo>
             <Fill>
-              <CssParameter name="fill">#00943E</CssParameter>
+              <CssParameter name="fill">#000000</CssParameter>
             </Fill>
             <VendorOption name="autoWrap">125</VendorOption>
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxDisplacement">7</VendorOption>
             <VendorOption name="goodnessOfFit">0.8</VendorOption>
           </TextSymbolizer>
-        </Rule>    
+        </Rule>
+
         <Rule>
           <Name>Unitary Electoral Division - 1:150,000 to 1:200,000</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Area_Code</ogc:PropertyName>
-              <ogc:Literal>CED</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
           <MinScaleDenominator>150000</MinScaleDenominator>
           <MaxScaleDenominator>200000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#00943E</CssParameter>
-              <CssParameter name="stroke-width">1.4</CssParameter>
-              <CssParameter name="stroke-linecap">round</CssParameter>
-              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke">#3c3c3c</CssParameter>
+              <CssParameter name="stroke-width">0.6</CssParameter>
+              <CssParameter name="stroke-linecap">square</CssParameter>
+              <CssParameter name="stroke-linejoin">round</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>

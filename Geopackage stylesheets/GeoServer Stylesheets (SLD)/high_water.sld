@@ -7,26 +7,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <UserStyle>
       <Title>Product SLD - August 2019</Title>
       <Abstract>Boundary-Line&#8482;. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
-      
+
       <!-- High Water -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
           <Name>High Water</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Feature_Code</ogc:PropertyName>
-              <ogc:Literal>0071</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>708617</MaxScaleDenominator>
+          <MinScaleDenominator>1</MinScaleDenominator>
+          <MaxScaleDenominator>100000000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#C0E4FC</CssParameter>
+              <CssParameter name="stroke">#c0e4fc</CssParameter>
               <CssParameter name="stroke-width">1.25</CssParameter>
-              <CssParameter name="stroke-linecap">round</CssParameter>
-              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke-linecap">square</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>

@@ -7,30 +7,31 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <UserStyle>
       <Title>Product SLD - August 2019</Title>
       <Abstract>Boundary-Line&#8482;. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
-      
+
       <!--  Community Ward  -->
-      
-      <FeatureTypeStyle>  
+
+      <FeatureTypeStyle>
         <Rule>
-          <Name>Community Ward - 1:1,000 to 1:65,000</Name>          
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>65000</MaxScaleDenominator>
+          <Name>Community Ward - 1:1 to 1:50,000</Name>
+          <MinScaleDenominator>1</MinScaleDenominator>
+          <MaxScaleDenominator>50000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#FF1F5B</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">1.5</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
-              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>Name</ogc:PropertyName>
+              <ogc:PropertyName>name</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
               <CssParameter name="font-size">10</CssParameter>
               <CssParameter name="font-weight">bold</CssParameter>
+              <CssParameter name="font-style">italic</CssParameter>
             </Font>
             <LabelPlacement>
               <PointPlacement>
@@ -47,27 +48,27 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </Fill>
             </Halo>
             <Fill>
-              <CssParameter name="fill">#05DC05</CssParameter>
+              <CssParameter name="fill">#ff1f5b</CssParameter>
             </Fill>
             <VendorOption name="autoWrap">125</VendorOption>
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxDisplacement">7</VendorOption>
             <VendorOption name="goodnessOfFit">0.8</VendorOption>
           </TextSymbolizer>
-        </Rule>     
+        </Rule>
         <Rule>
-          <Name>Community Wards - 1:65,000 to 1:100,000</Name>          
-          <MinScaleDenominator>65000</MinScaleDenominator>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>
+          <Name>Community Wards - 1:50,000 to 1:75,000</Name>
+          <MinScaleDenominator>50000</MinScaleDenominator>
+          <MaxScaleDenominator>75000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#FF1F5B</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
-              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>   
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

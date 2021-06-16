@@ -7,35 +7,29 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
     <UserStyle>
       <Title>Product SLD - August 2019</Title>
       <Abstract>Boundary-Line&#8482;. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
-      
+
       <!--  Westminster Const  -->
-      
-      <FeatureTypeStyle>   
+
+      <FeatureTypeStyle>
         <Rule>
-          <Name>Westminster Constituency Region - 1:75,000 to 1:160,000</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Area_Code</ogc:PropertyName>
-              <ogc:Literal>WMC</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>75000</MinScaleDenominator>
-          <MaxScaleDenominator>160000</MaxScaleDenominator>
+          <Name>Westminster Constituency Region - 1:1 to 1:500,000</Name>
+          <MinScaleDenominator>1</MinScaleDenominator>
+          <MaxScaleDenominator>500000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#322828</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
-              <CssParameter name="stroke-linecap">round</CssParameter>
-              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke">#013475</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-linecap">square</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>Name</ogc:PropertyName>
+              <ogc:PropertyName>name</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">10</CssParameter>
+              <CssParameter name="font-size">8</CssParameter>
               <CssParameter name="font-weight">bold</CssParameter>
             </Font>
             <LabelPlacement>
@@ -53,30 +47,25 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </Fill>
             </Halo>
             <Fill>
-              <CssParameter name="fill">#322828</CssParameter>
+              <CssParameter name="fill">#013475</CssParameter>
             </Fill>
             <VendorOption name="autoWrap">125</VendorOption>
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxDisplacement">7</VendorOption>
             <VendorOption name="goodnessOfFit">0.8</VendorOption>
           </TextSymbolizer>
-        </Rule>    
+        </Rule>
+
         <Rule>
-          <Name>Westminster Constituency Region - 1:160,000 to 1:300,000</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>Area_Code</ogc:PropertyName>
-              <ogc:Literal>WMC</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>160000</MinScaleDenominator>
-          <MaxScaleDenominator>300000</MaxScaleDenominator>
+          <Name>Westminster Constituency Region - 1:500,000 to 1:2,500,000</Name>
+          <MinScaleDenominator>500000</MinScaleDenominator>
+          <MaxScaleDenominator>2500000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#322828</CssParameter>
-              <CssParameter name="stroke-width">2</CssParameter>
-              <CssParameter name="stroke-linecap">round</CssParameter>
-              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke">#013475</CssParameter>
+              <CssParameter name="stroke-width">0.8</CssParameter>
+              <CssParameter name="stroke-linecap">square</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
         </Rule>
