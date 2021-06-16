@@ -3,23 +3,23 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Boundary-Line&#8482; - parish</Name>
+    <Name>Boundary-Line&#8482; - community_ward</Name>
     <UserStyle>
       <Title>Product SLD - August 2019</Title>
       <Abstract>Boundary-Line&#8482;. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
 
-      <!--  Parish  -->
+      <!--  Community Ward  -->
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Parish - 1:1 to 1:50,000</Name>
+          <Name>Community Ward - 1:1 to 1:50,000</Name>
           <MinScaleDenominator>1</MinScaleDenominator>
           <MaxScaleDenominator>50000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#e56b00</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-              <CssParameter name="stroke-linecap">square</CssParameter>
+              <CssParameter name="stroke">#FF1F5B</CssParameter>
+              <CssParameter name="stroke-width">1.5</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
               <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
@@ -48,7 +48,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </Fill>
             </Halo>
             <Fill>
-              <CssParameter name="fill">#e56b00</CssParameter>
+              <CssParameter name="fill">#ff1f5b</CssParameter>
             </Fill>
             <VendorOption name="autoWrap">125</VendorOption>
             <VendorOption name="group">yes</VendorOption>
@@ -56,16 +56,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="goodnessOfFit">0.8</VendorOption>
           </TextSymbolizer>
         </Rule>
-
         <Rule>
-          <Name>Parish - 1:50,000 to 1:75,000</Name>
+          <Name>Community Wards - 1:50,000 to 1:75,000</Name>
           <MinScaleDenominator>50000</MinScaleDenominator>
           <MaxScaleDenominator>75000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#e56b00</CssParameter>
-              <CssParameter name="stroke-width">0.6</CssParameter>
-              <CssParameter name="stroke-linecap">square</CssParameter>
+              <CssParameter name="stroke">#FF1F5B</CssParameter>
+              <CssParameter name="stroke-width">1</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
               <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>

@@ -3,54 +3,33 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>Boundary-Line&#8482; - district_borough_unitary_ward_region</Name>
+    <Name>Boundary-Line&#8482; - district_borough_unitary_ward</Name>
     <UserStyle>
-      <Title>Product SLD - February 2016</Title>
-      <Abstract>Boundary-Line&#8482;. Ordnance Survey. &#169; Crown copyright 2016.</Abstract>
-      
-      <!-- District Borough Unitary Ward Region -->
-      
-      <FeatureTypeStyle>   
+      <Title>Product SLD - August 2019</Title>
+      <Abstract>Boundary-Line&#8482;. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
+
+      <!-- District Borough Unitary Ward -->
+
+      <FeatureTypeStyle>
         <Rule>
-          <Name>District Borough Unitary Ward - 1:1,000 to 1:65,000</Name>
-          <ogc:Filter>
-            <ogc:Or>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>AREA_CODE</ogc:PropertyName>
-                <ogc:Literal>DIW</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>AREA_CODE</ogc:PropertyName>
-                <ogc:Literal>LBW</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>AREA_CODE</ogc:PropertyName>
-                <ogc:Literal>MTW</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>AREA_CODE</ogc:PropertyName>
-                <ogc:Literal>UTW</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>
-          </ogc:Filter>
-          <MinScaleDenominator>1000</MinScaleDenominator>
-          <MaxScaleDenominator>65000</MaxScaleDenominator>
+          <Name>District Borough Unitary Ward - 1:1 to 1:150,000</Name>
+          <MinScaleDenominator>1</MinScaleDenominator>
+          <MaxScaleDenominator>150000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#004DA8</CssParameter>
+              <CssParameter name="stroke">#3c3c3c</CssParameter>
               <CssParameter name="stroke-width">1.2</CssParameter>
-              <CssParameter name="stroke-linecap">round</CssParameter>
-              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke-linecap">square</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>NAME</ogc:PropertyName>
+              <ogc:PropertyName>name</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">10</CssParameter>
-              <CssParameter name="font-weight">bold</CssParameter>
+              <CssParameter name="font-size">7.5</CssParameter>
             </Font>
             <LabelPlacement>
               <PointPlacement>
@@ -67,7 +46,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </Fill>
             </Halo>
             <Fill>
-              <CssParameter name="fill">#004DA8</CssParameter>
+              <CssParameter name="fill">#000000</CssParameter>
             </Fill>
             <VendorOption name="autoWrap">125</VendorOption>
             <VendorOption name="group">yes</VendorOption>
@@ -75,39 +54,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="goodnessOfFit">0.8</VendorOption>
           </TextSymbolizer>
         </Rule>
+
         <Rule>
-          <Name>District Borough Unitary Ward - 1:65,000 to 1:100,000</Name>
-          <ogc:Filter>
-            <ogc:Or>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>AREA_CODE</ogc:PropertyName>
-                <ogc:Literal>DIW</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>AREA_CODE</ogc:PropertyName>
-                <ogc:Literal>LBW</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>AREA_CODE</ogc:PropertyName>
-                <ogc:Literal>MTW</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>AREA_CODE</ogc:PropertyName>
-                <ogc:Literal>UTW</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:Or>
-          </ogc:Filter>
-          <MinScaleDenominator>65000</MinScaleDenominator>
-          <MaxScaleDenominator>100000</MaxScaleDenominator>
+          <Name>District Borough Unitary Ward - 1:150,000 to 1:200,000</Name>
+          <MinScaleDenominator>150000</MinScaleDenominator>
+          <MaxScaleDenominator>200000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Stroke>
-              <CssParameter name="stroke">#004DA8</CssParameter>
-              <CssParameter name="stroke-width">1.2</CssParameter>
-              <CssParameter name="stroke-linecap">round</CssParameter>
-              <CssParameter name="stroke-linejoin">miter</CssParameter>
+              <CssParameter name="stroke">#3c3c3c</CssParameter>
+              <CssParameter name="stroke-width">0.8</CssParameter>
+              <CssParameter name="stroke-linecap">square</CssParameter>
+              <CssParameter name="stroke-linejoin">bevel</CssParameter>
             </Stroke>
           </PolygonSymbolizer>
-        </Rule>  
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
