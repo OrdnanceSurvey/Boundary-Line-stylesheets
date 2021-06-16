@@ -18,10 +18,6 @@ These are QML files for Boundary-Line in Geopackage format for use in QGIS
 
 **NOTE:** We have set scale ranges to each layer so you may need to zoom in or out before the boundaries appear. You can change or remove the scale ranges within the 'Layer Properties' window
 
-Your data should now look similar to this: 
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/images/Boundary_Line_Screenshot.png "Screenshot of Boundary-Line at 1:600,000 scale")
-
 ## Additional information
 
 [More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)
