@@ -26,10 +26,6 @@ These are LYR files for Boundary-Line in Geopackage format for use in ESRI ArcGI
 
 We recommend viewing the map with the preset scale ranges for maximum legibility. You may need to zoom in or out before the boundaries appear. You can change or remove the scale ranges within the 'Layer Properties' window
 
-Your map should now look similar to this: 
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Boundary_Line_Screenshot.png "Screenshot of Boundary-Line at 1:600,000 scale")
-
 **Method 2**
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/archive/master.zip) the contents of this repository
@@ -49,10 +45,6 @@ Your map should now look similar to this:
 Repeat step 7 for all required layers.
 
 We recommend viewing the map with the preset scale ranges for maximum legibility. You may need to zoom in or out before the boundaries appear. You can change or remove the scale ranges within the 'Layer Properties' window
-
-Your map should now look similar to this: 
-
-  ![Screenshot](https://github.com/OrdnanceSurvey/Boundary-Line-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/images/Boundary_Line_Screenshot.png "Screenshot of Boundary-Line at 1:600,000 scale")
 
 ## Additional information
 
