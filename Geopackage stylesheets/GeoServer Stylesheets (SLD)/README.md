@@ -22,7 +22,7 @@ Although SLD is an open OGC standard, these SLDs do contain some extended code u
 
 ## Additional information
 
-[More information about OS VectorMap District](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html)
+[More information about Boundary-Line](https://www.ordnancesurvey.co.uk/business-government/products/boundaryline)
 
 [For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
