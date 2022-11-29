@@ -1,6 +1,6 @@
 # Boundary-Line
 
-These are LYR files for Boundary-Line in ESRI Shapefile format for use in ESRI ArcGIS.
+These are **LYR** files for Boundary-Line in **ESRI Shapefile** format for use in **ESRI ArcGIS**.
 
 *They have been designed to work with the data in its Layered supply*
 
