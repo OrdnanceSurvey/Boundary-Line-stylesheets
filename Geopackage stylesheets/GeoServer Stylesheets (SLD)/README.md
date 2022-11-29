@@ -1,6 +1,6 @@
 # Boundary-Line
 
-These are SLD files for Boundary-Line in Geopackage format for use in GeoServer.
+These are **SLD** files for Boundary-Line in **Geopackage** format for use in **GeoServer**.
 
 ## Quick start guide
 
@@ -16,17 +16,15 @@ These are SLD files for Boundary-Line in Geopackage format for use in GeoServer.
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 
-##Compatibility notes
+## Compatibility notes
 
 Although SLD is an open OGC standard, these SLDs do contain some extended code used by GeoServer, namely the ‘vendor option’ tags.
 
 ## Additional information
 
-[More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)
-
 [More information about OS VectorMap District](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html)
 
-[More information about cartographic design at Ordnance Survey](https://www.ordnancesurvey.co.uk/resources/carto-design/)
+[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 ## Licence
 
