@@ -20,9 +20,9 @@ These are **QML** files for Boundary-Line in **Geopackage** format for use in **
 
 ## Additional information
 
-[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
-
 [More information about Boundary-Line](http://www.ordnancesurvey.co.uk/business-and-government/products/boundary-line.html)
+
+[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 ## Licence
 
